@@ -30,6 +30,7 @@ public class SetSpawn implements SubCommand {
             MessageManager.getInstance().sendFMessage(MessageManager.PrefixType.ERROR, "error.nopermission", player);
             return true;
         }
+        
         loadNextSpawn();
         //System.out.println("settings spawn");
         Location l = player.getLocation();

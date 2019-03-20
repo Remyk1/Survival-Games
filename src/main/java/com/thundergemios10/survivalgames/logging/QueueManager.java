@@ -119,9 +119,7 @@ public class QueueManager {
 				}
 			}
 			for(int a = 0; a < removelist.size(); a = 0){
-				try{removelist.remove(0).remove();}catch(Exception e){
-					e.printStackTrace();
-				}
+				try{removelist.remove(0).remove();}catch(Exception e){}
 			}
 		}
 	}
